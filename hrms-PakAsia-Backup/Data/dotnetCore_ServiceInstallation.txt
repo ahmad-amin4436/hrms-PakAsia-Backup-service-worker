@@ -1,0 +1,4 @@
+#Firstly run .exe "C:\Users\Administrator\Desktop\Service\net8.0\publish\hrms-PakAsia-Backup.exe" manually then install by given command and run.
+
+sc create hrmsBackup binPath= "C:\Users\Administrator\Desktop\Service\net8.0\publish\hrms-PakAsia-Backup.exe" 
+sc start hrmsBackup 
